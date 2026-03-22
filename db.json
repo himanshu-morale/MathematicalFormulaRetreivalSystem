@@ -1,0 +1,199 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "password": "$2b$10$FrNuFBHmaSnWiBzXTLZxLOVpsNHLowUQbQl9f7txqqRwbqMrjDtYe",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "email": "user@example.com",
+      "password": "$2b$10$mWC25ajHBUQCfntowpbIu.SaaCvrpWhj028SwXoQj03cAc6oAK1xa",
+      "role": "user"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "1",
+      "name": "Quadratic Formula",
+      "category": "Algebra",
+      "description": "Used to find the roots of a quadratic equation ax^2 + bx + c = 0.",
+      "latex": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
+      "example": "For x^2 + 5x + 6 = 0, a=1, b=5, c=6.",
+      "createdAt": "2026-03-22T07:23:29.481Z"
+    },
+    {
+      "id": "2",
+      "name": "Euler's Identity",
+      "category": "Calculus",
+      "description": "A beautiful equation connecting five fundamental mathematical constants.",
+      "latex": "e^{i\\pi} + 1 = 0",
+      "example": "Used in complex analysis and physics.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "3",
+      "name": "Pythagorean Theorem",
+      "category": "Geometry",
+      "description": "Relates the sides of a right-angled triangle.",
+      "latex": "a^2 + b^2 = c^2",
+      "example": "If a=3 and b=4, then c=5.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "4",
+      "name": "Area of a Circle",
+      "category": "Geometry",
+      "description": "Calculates the area enclosed by a circle with radius r.",
+      "latex": "A = \\pi r^2",
+      "example": "If r=7, A = 49\\pi.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "5",
+      "name": "Binomial Theorem",
+      "category": "Algebra",
+      "description": "Describes the algebraic expansion of powers of a binomial.",
+      "latex": "(x+y)^n = \\sum_{k=0}^n \\binom{n}{k} x^{n-k} y^k",
+      "example": "(x+y)^2 = x^2 + 2xy + y^2.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "6",
+      "name": "Logarithm Product Rule",
+      "category": "Algebra",
+      "description": "The logarithm of a product is the sum of the logarithms.",
+      "latex": "\\log_b(xy) = \\log_b(x) + \\log_b(y)",
+      "example": "\\log(100) = \\log(10) + \\log(10) = 1 + 1 = 2.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "7",
+      "name": "Derivative Power Rule",
+      "category": "Calculus",
+      "description": "Basic rule for differentiating powers of x.",
+      "latex": "\\frac{d}{dx}x^n = nx^{n-1}",
+      "example": "The derivative of x^3 is 3x^2.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "8",
+      "name": "Fundamental Theorem of Calculus",
+      "category": "Calculus",
+      "description": "Relates differentiation and integration.",
+      "latex": "\\int_a^b f(x)dx = F(b) - F(a)",
+      "example": "Used to calculate the area under a curve.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "9",
+      "name": "Law of Sines",
+      "category": "Trigonometry",
+      "description": "Relates the lengths of the sides of a triangle to the sines of its angles.",
+      "latex": "\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}",
+      "example": "Used to solve non-right triangles.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "10",
+      "name": "Law of Cosines",
+      "category": "Trigonometry",
+      "description": "Generalization of the Pythagorean theorem for all triangles.",
+      "latex": "c^2 = a^2 + b^2 - 2ab \\cos C",
+      "example": "Find side c if a, b and angle C are known.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "11",
+      "name": "Bayes' Theorem",
+      "category": "Probability",
+      "description": "Describes the probability of an event based on prior knowledge.",
+      "latex": "P(A|B) = \\frac{P(B|A)P(A)}{P(B)}",
+      "example": "Used in medical testing and spam filters.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "12",
+      "name": "Standard Deviation",
+      "category": "Statistics",
+      "description": "Measure of the amount of variation or dispersion of a set of values.",
+      "latex": "\\sigma = \\sqrt{\\frac{\\sum(x_i - \\mu)^2}{N}}",
+      "example": "High sigma means data is spread out.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "13",
+      "name": "Newton's Second Law",
+      "category": "Physics",
+      "description": "Force equals mass times acceleration.",
+      "latex": "F = ma",
+      "example": "A 10kg mass accelerating at 2m/s^2 requires 20N of force.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "14",
+      "name": "Mass-Energy Equivalence",
+      "category": "Physics",
+      "description": "Einstein's famous equation relating mass and energy.",
+      "latex": "E = mc^2",
+      "example": "Shows that mass can be converted into energy.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "15",
+      "name": "Ohm's Law",
+      "category": "Physics",
+      "description": "Relates voltage, current, and resistance.",
+      "latex": "V = IR",
+      "example": "If I=2A and R=5Ω, then V=10V.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "16",
+      "name": "Volume of a Sphere",
+      "category": "Geometry",
+      "description": "Calculates the space occupied by a sphere.",
+      "latex": "V = \\frac{4}{3}\\pi r^3",
+      "example": "If r=3, V = 36\\pi.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "17",
+      "name": "Arithmetic Series Sum",
+      "category": "Algebra",
+      "description": "Sum of the first n terms of an arithmetic progression.",
+      "latex": "S_n = \\frac{n}{2}(a_1 + a_n)",
+      "example": "Sum of 1 to 100 is 5050.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "18",
+      "name": "Product Rule",
+      "category": "Calculus",
+      "description": "Rule for differentiating the product of two functions.",
+      "latex": "(uv)' = u'v + uv'",
+      "example": "Derivative of x*sin(x) is sin(x) + x*cos(x).",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "19",
+      "name": "Pythagorean Identity",
+      "category": "Trigonometry",
+      "description": "Fundamental identity relating sine and cosine.",
+      "latex": "\\sin^2 \\theta + \\cos^2 \\theta = 1",
+      "example": "True for any angle theta.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    },
+    {
+      "id": "20",
+      "name": "Combinations Formula",
+      "category": "Probability",
+      "description": "Number of ways to choose k items from n without regard to order.",
+      "latex": "\\binom{n}{k} = \\frac{n!}{k!(n-k)!}",
+      "example": "Choosing 2 items from 5: 10 ways.",
+      "createdAt": "2026-03-22T07:23:29.482Z"
+    }
+  ],
+  "bookmarks": []
+}

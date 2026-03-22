@@ -1,0 +1,5 @@
+{
+  "name": "MathFormula Retrieval System",
+  "description": "A responsive web-based system for storing, managing, and intelligently retrieving mathematical formulas using LaTeX rendering and keyword-based search.",
+  "requestFramePermissions": []
+}
